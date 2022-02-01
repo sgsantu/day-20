@@ -1,0 +1,66 @@
+/* unevercal */
+img{
+    max-width: 100% !important;
+}
+
+
+/* navbar start */
+.logo-image{
+    width: 70px;
+}
+.custom-navbar{
+    background-color: #D4E2EC !important;
+}
+
+/* navbar end */
+
+/* second-section start */
+.second-section{
+    
+}
+/* .second-section .breadcrumb{
+    background-color: #E9ECEF;
+    padding: 13px 10px;
+    border-radius: 5px;
+ } */
+/* second-section end */
+
+
+
+
+
+/* slider section start */
+.carousel-item{
+    position: relative;
+}
+.carousel-item::after{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.585);
+    
+}
+.carousel-item img{
+    max-height: 400px;
+}
+.carousel-item h5{
+   z-index: 1;
+   position: relative;
+}
+.carousel-item p{
+    z-index: 1;
+    position: relative;
+}
+
+
+
+/* slider section end */
+
+/* progress-section-custom */
+.progress-section-custom{}
+.progress-section-custom .progress{
+   margin-bottom: 15px;
+}
